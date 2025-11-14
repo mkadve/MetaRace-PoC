@@ -1,0 +1,37 @@
+.wc-container {
+  position: relative;
+  display: inline-block;
+  width: 280px;
+}
+
+.wc-btn {
+  width: 280px;
+  margin-left: 0 !important;
+}
+
+.wc-account-row {
+  display: flex;
+  align-items: center;
+  width: 280px;
+}
+
+.wc-account {
+  color: #0d6efd;
+  border: 1px solid #0d6efd;
+  border-radius: 5px;
+  padding: 5px 10px;
+  font-weight: 500;
+  width: 180px;
+  text-align: center;
+  margin-right: 10px;
+}
+
+.wc-error {
+  position: absolute;
+  left: 0;
+  top: 100%;
+  margin-top: 4px;
+  color: red;
+  font-size: 12px;
+  white-space: nowrap;
+} 
